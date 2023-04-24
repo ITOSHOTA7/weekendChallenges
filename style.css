@@ -1,4 +1,59 @@
+header{
+    background-color: red;
+    display: flex;
+}
+.header-br{
+    font-size: 45px;
+}
+
 h1{
+    font-size: 50px;
+}
+
+
+
+section1{
+    display: flex;
+    padding: 30px;
+}
+
+section img{
+    padding: 30px;
+}
+
+.section2box1{
+    display: flex;
+}
+
+footer p{
     color: red;
 }
 
+footer{
+    background-color: yellow;
+}
+/* .section2box2{
+    display: flex;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .section2box1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
